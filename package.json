@@ -5,9 +5,8 @@
     "private": "true",
     "main": "index.js",
     "scripts": {
-        "serve": "NODE_ENV=development webpack-dev-server --config ./build/webpack.config.dev.js",
-        "build": "NODE_ENV=production webpack --config ./build/webpack.config.prod.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "NODE_ENV=development webpack-dev-server --config ./build/webpack.config.dev.js",
+        "build": "NODE_ENV=production webpack --config ./build/webpack.config.prod.js"
     },
     "author": "",
     "license": "ISC",
